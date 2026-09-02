@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+# The targets file is included by configure_package_config_file.
+include(CMakeFindDependencyMacro)
+
+if(NOT TARGET StorageFabric::storagefabric)
+    include("${CMAKE_CURRENT_LIST_DIR}/StorageFabricTargets.cmake")
+endif()
+
+check_required_components(StorageFabric)

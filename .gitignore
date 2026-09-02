@@ -1,0 +1,25 @@
+# build directories
+build/
+build-*/
+out/
+cmake-build-*/
+consumer/build/
+sfb-prefix/
+*.user
+.vs/
+*.VC.db
+*.VC.opendb
+
+# local dev scratch
+dev/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.exp
+*.manifest
+compile_commands.json
+*.zip
+*.tar.gz
